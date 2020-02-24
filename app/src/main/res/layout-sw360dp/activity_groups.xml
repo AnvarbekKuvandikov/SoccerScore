@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f1f2f5"
+    android:orientation="vertical"
+    tools:context=".Facts">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="70dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:background="@drawable/mask_group_6">
+
+                    <include layout="@layout/toolbar" />
+
+                    <customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="50dp"
+                        android:text="Group C"
+                        android:textColor="#ffffff"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="2dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingLeft="40dp"
+                            android:text="Japan"
+                            android:textColor="#ffffff"
+                            android:textSize="12.7sp" />
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="15dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_japan" />
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="0 - 0 "
+                            android:textColor="#ffffff"
+                            android:textSize="13.7sp" />
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="15dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_france" />
+
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingRight="40dp"
+                            android:text="France"
+                            android:textColor="#ffffff"
+                            android:textSize="12.7sp" />
+
+
+                    </LinearLayout>
+
+                    <customfonts.MyTextView_Roboto_Medium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="40dp"
+                        android:text="Moscow, Luzhniki Stadium"
+                        android:textColor="#ffffff"
+                        android:textSize="13sp" />
+
+
+                </FrameLayout>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="13dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="0.5dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="30dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Bold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="19.32dp"
+                            android:paddingLeft="21.72dp"
+                            android:paddingRight="25dp"
+                            android:text="Group C"
+                            android:textColor="#383838"
+                            android:textSize="15.3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="21.72dp"
+                            android:paddingRight="25dp">
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="#"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Teams"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="MP"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="+/-"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="Pts"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="5dp"
+                                android:layout_height="19dp"
+                                android:layout_marginRight="20dp"
+                                android:background="#2eb772"
+                                android:scaleType="fitXY" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1."
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_france" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="France"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="3"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="+2"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="7"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="5dp"
+                                android:layout_height="19dp"
+                                android:layout_marginRight="20dp"
+                                android:background="#2eb772"
+                                android:scaleType="fitXY" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2."
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_japan" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Japan"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="2dp"
+                                android:layout_weight="1"
+                                android:text="3"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="5"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="5dp"
+                                android:layout_height="19dp"
+                                android:layout_marginRight="20dp"
+                                android:background="#e23c3c"
+                                android:scaleType="fitXY" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3."
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_panama" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Panama"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="-1"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:text="1"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_weight="1"
+                                android:text="7"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="5dp"
+                                android:layout_height="19dp"
+                                android:layout_marginRight="20dp"
+                                android:background="#e23c3c"
+                                android:scaleType="fitXY" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4."
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/poland" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Poland"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="2"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="-3"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0"
+                                android:textColor="#383838"
+                                android:textSize="11.3sp" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="12.3dp"
+                    android:layout_marginBottom="10.7dp"
+                    app:cardCornerRadius="9.3dp"
+                    app:cardElevation="0.5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="13.5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="6dp"
+                                android:layout_height="6dp"
+                                android:layout_marginRight="4dp"
+                                android:src="@drawable/ic_ellipse_3" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LIVE"
+                                android:textColor="#e85050"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingLeft="40dp"
+                                android:text="Japan"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_japan" />
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="0 - 0 "
+                                android:textColor="#c9bc93"
+                                android:textSize="13.7sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_france" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingRight="40dp"
+                                android:text="France"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                        </LinearLayout>
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:id="@+id/groupid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginBottom="18dp"
+                            android:text="Group C"
+                            android:textColor="#cccfdc"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="12.3dp"
+                    android:layout_marginBottom="10.7dp"
+                    app:cardCornerRadius="9.3dp"
+                    app:cardElevation="0.5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="13.5dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="6dp"
+                                android:layout_height="6dp"
+                                android:layout_marginRight="4dp"
+                                android:src="@drawable/ic_ellipse_3" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LIVE"
+                                android:textColor="#e85050"
+                                android:textSize="11sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingLeft="40dp"
+                                android:text="Japan"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_japan" />
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:text="0 - 0 "
+                                android:textColor="#c9bc93"
+                                android:textSize="13.7sp" />
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="15dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_france" />
+
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:paddingRight="40dp"
+                                android:text="France"
+                                android:textColor="#383838"
+                                android:textSize="12.7sp" />
+
+
+                        </LinearLayout>
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="13dp"
+                            android:layout_marginBottom="18dp"
+                            android:text="Group C"
+                            android:textColor="#cccfdc"
+                            android:textSize="10sp" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_group_23" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Events"
+                android:textColor="#cbcfdd"
+                android:textSize="8.9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/group_271" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Events"
+                android:textColor="#cbcfdd"
+                android:textSize="8.9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_football_court_top_view" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Events"
+                android:textColor="#cbcfdd"
+                android:textSize="8.9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/stadium1" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Events"
+                android:textColor="#cbcfdd"
+                android:textSize="8.9sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/group_261" />
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Events"
+                android:textColor="#cbcfdd"
+                android:textSize="8.9sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
